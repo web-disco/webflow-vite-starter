@@ -1,5 +1,3 @@
-import { animation } from "./animations";
-
 document.addEventListener("DOMContentLoaded", () => {
-  animation();
+  console.log("Hello World!");
 });
