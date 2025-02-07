@@ -34,8 +34,12 @@ This script is for the global js file that will be used throughout the whole sit
 - To build your files for production, run `npm run build`.
 - Bundled files will be generated within the `/dist` directory.
 
-## Hosting your `index.js` file.
+## Hosting your bundled `JavaScript` files.
 
-- In Google Cloud Platform (GCP), create a new subfolder in the `otherlife-public-assets-prod` folder with the name of your project. Upload the built and bunlded JavaScript file in this folder. Once the file is uploaded, copy the URL, and use paste this as the script tag in your Project Settings, replacing the development scripts.
+- Host bundled JavaScript files via CDN such as AWS or GCP (Google Cloud Platform). Upload the built and bunlded JavaScript file to your CDN. Once the file is uploaded, copy the URL, and use paste this as the script tag in your Project Settings, replacing the development scripts.
 
-` <script type="text/javascript" src="https://GOOGLE_CLOUD_URL"></script>`
+`<script type="module" src="https://AWS_URL"></script>`
+
+Alternatively, you can covnert your JavaSript file to a `.txt` file, and host it in your Webflow Assets directory. Be sure to update your script type:
+
+`<script type="text/javascrip" src="https://WEBFLOW_ASSET_LINK"></script>`
