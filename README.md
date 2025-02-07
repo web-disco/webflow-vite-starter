@@ -42,4 +42,4 @@ This script is for the global js file that will be used throughout the whole sit
 
 Alternatively, you can covnert your JavaSript file to a `.txt` file, and host it in your Webflow Assets directory. Be sure to update your script type:
 
-`<script type="text/javascrip" src="https://WEBFLOW_ASSET_LINK"></script>`
+`<script type="text/javascript" src="https://WEBFLOW_ASSET_LINK"></script>`
